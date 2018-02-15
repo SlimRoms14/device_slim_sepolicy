@@ -4,4 +4,5 @@
 #
 
 BOARD_SEPOLICY_DIRS += \
-    device/gzosp/sepolicy/common
+    device/slim/sepolicy/common/vendor \
+    device/slim/sepolicy/common/private
