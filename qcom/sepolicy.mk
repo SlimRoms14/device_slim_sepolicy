@@ -4,7 +4,7 @@
 #
 
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
-    device/lineage/sepolicy/qcom/private
+    device/slim/sepolicy/qcom/private
 
 BOARD_SEPOLICY_DIRS += \
     device/slim/sepolicy/qcom/common \
