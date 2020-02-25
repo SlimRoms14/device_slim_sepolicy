@@ -11,3 +11,6 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
 
 BOARD_SEPOLICY_DIRS += \
     device/slim/sepolicy/common/vendor
+
+# Selectively include legacy rules defined by the products
+-include device/slim/sepolicy/legacy-common/sepolicy.mk
