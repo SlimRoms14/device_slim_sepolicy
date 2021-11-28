@@ -1,1 +1,4 @@
 type sf_lcd_density_prop, property_type;
+
+# Recovery update
+system_public_prop(recovery_update_prop)
