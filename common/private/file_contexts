@@ -10,4 +10,4 @@
 /system/bin/sysinit                     u:object_r:sysinit_exec:s0
 
 # Bash
-/system/xbin/bash          u:object_r:shell_exec:s0
+/(system_ext|system/system_ext)/bin/bash          u:object_r:shell_exec:s0
