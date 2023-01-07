@@ -33,6 +33,7 @@ domain_trans(recovery, otapreopt_chroot_exec, backuptool)
 allow recovery system_file:dir mounton;
 
 # Volume manager
+r_dir_file(recovery, sdcard_type)
 allow recovery block_device:dir create_dir_perms;
 allow recovery block_device:blk_file { create unlink rw_file_perms };
 allow recovery self:capability { mknod fsetid };
