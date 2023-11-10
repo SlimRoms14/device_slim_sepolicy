@@ -1,2 +1,2 @@
 # HALs
-hal_attribute_slim(lineage_camera_motor)
+hal_attribute_slim(slim_camera_motor)

@@ -1,5 +1,2 @@
-type recovery_prop, property_type;
-type userinit_prop, property_type;
-
 # Recovery update
 system_internal_prop(recovery_update_prop)
